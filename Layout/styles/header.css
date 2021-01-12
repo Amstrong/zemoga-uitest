@@ -1,0 +1,1207 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color: white;
+    font-weight: 100;
+}
+
+p {
+    margin: 0;
+}
+
+.link-header {
+    text-decoration: none;
+
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+    .header--container {
+        background: linear-gradient(to bottom, rgba(60, 60, 60, 0.9), rgba(0, 0, 0, 0)), url(../assets/Images/Pope.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+    .navbar--container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        align-items: flex-end;
+        height: 50px;
+    }
+
+    .navbar--title {
+        margin-left: 100px;
+        color: white;
+        font-weight: 600;
+        font-size: 30px;
+
+    }
+
+    .navbar--items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        font-weight: 300;
+        font-size: 16px;
+        margin-right: 100px;
+    }
+
+    .dialog--container {
+        backdrop-filter: blur(15px);
+        background-color: rgba(70, 70, 70, 0.5);
+        margin-left: 100px;
+        max-width: 430px;
+        height: 380px;
+        display: grid;
+        grid-template-rows: 1fr 65px;
+    }
+
+    .dialog--text--container {
+        display: grid
+    }
+
+    .text-dialog {
+        align-self: flex-end;
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 16px;
+        margin-right: 100px;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+
+    .title-dialog {
+        color: white;
+        margin-left: 30px;
+        font-size: 50px;
+    }
+
+    .link-wiki {
+        font-size: 14px;
+    }
+
+    .paragraph--dialog {
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 16px;
+        margin-right: 100px;
+        margin-left: 30px;
+        margin-bottom: 0;
+
+    }
+
+    .veredit-text {
+        color: white;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    .wiki-img {
+        margin-left: 30px;
+    }
+
+    .votes--pope--container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .orange--color {
+        width: 100%;
+        height: 100%;
+        background-color: #ffad1f;
+        display: grid;
+    }
+
+    .green--color {
+        width: 100%;
+        height: 100%;
+        background-color: #1cbbb4;
+        display: grid;
+    }
+
+    .more-votes {
+        width: 28px;
+        height: 28px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .less-votes {
+        width: 28px;
+        height: 28px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .closingIn--container {
+        display: grid;
+        align-items: flex-end;
+    }
+
+    .closingIn--section {
+        height: 51px;
+        display: grid;
+        grid-template-columns: 1fr 0px 2fr;
+    }
+
+    .closing-ing-container {
+        background-color: rgba(70, 70, 70, 0.3);
+        color: #fff;
+        display: grid;
+        align-items: center;
+        justify-items: end;
+    }
+
+    .closing-ing-text {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .bold-closing-ing {
+        font-size: 30px;
+        font-weight: 500;
+        color: #464646;
+    }
+
+    .days-container {
+        background-color: rgba(255, 255, 255, 0.6);
+        display: grid;
+        align-items: center;
+        justify-items: start;
+
+    }
+
+    .days-text {
+        margin-left: 15px;
+        font-size: 27px;
+        font-weight: 300;
+        color: #464646;
+    }
+
+    .arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid rgba(70, 70, 70, 0.58);
+        z-index: 4;
+        display: grid;
+        align-self: center;
+
+    }
+
+    .search-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .header--container {
+        background: linear-gradient(to bottom, rgba(60, 60, 60, 0.9), rgba(0, 0, 0, 0)), url(../assets/Images/Pope.jpg);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+    .navbar--container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-end;
+        height: 50px;
+    }
+
+    .navbar--title {
+        margin-left: 100px;
+        color: white;
+        font-weight: 600;
+        font-size: 30px;
+
+    }
+
+    .navbar--items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        font-weight: 300;
+        font-size: 14px;
+        margin-right: 100px;
+        margin-left: 25px;
+    }
+
+    .dialog--container {
+        backdrop-filter: blur(15px);
+        background-color: rgba(70, 70, 70, 0.5);
+        margin-left: 100px;
+        max-width: 430px;
+        height: 380px;
+        display: grid;
+        grid-template-rows: 1fr 65px;
+    }
+
+    .dialog--text--container {
+        display: grid
+    }
+
+    .text-dialog {
+        align-self: flex-end;
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 16px;
+        margin-right: 100px;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+
+    .title-dialog {
+        color: white;
+        margin-left: 30px;
+        font-size: 50px;
+    }
+
+    .link-wiki {
+        font-size: 14px;
+    }
+
+    .paragraph--dialog {
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 16px;
+        margin-right: 100px;
+        margin-left: 30px;
+        margin-bottom: 0;
+
+    }
+
+    .veredit-text {
+        color: white;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    .wiki-img {
+        margin-left: 30px;
+    }
+
+    .votes--pope--container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .orange--color {
+        width: 100%;
+        height: 100%;
+        background-color: #ffad1f;
+        display: grid;
+    }
+
+    .green--color {
+        width: 100%;
+        height: 100%;
+        background-color: #1cbbb4;
+        display: grid;
+    }
+
+    .more-votes {
+        width: 28px;
+        height: 28px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .less-votes {
+        width: 28px;
+        height: 28px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .closingIn--container {
+        display: grid;
+        align-items: flex-end;
+    }
+
+    .closingIn--section {
+        height: 51px;
+        display: grid;
+        grid-template-columns: 1fr 0px 2fr;
+    }
+
+    .closing-ing-container {
+        background-color: rgba(70, 70, 70, 0.3);
+        color: #fff;
+        display: grid;
+        align-items: center;
+        justify-items: end;
+    }
+
+    .closing-ing-text {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .bold-closing-ing {
+        font-size: 30px;
+        font-weight: 500;
+        color: #464646;
+    }
+
+    .days-container {
+        background-color: rgba(255, 255, 255, 0.6);
+        display: grid;
+        align-items: center;
+        justify-items: start;
+
+    }
+
+    .days-text {
+        margin-left: 15px;
+        font-size: 27px;
+        font-weight: 300;
+        color: #464646;
+    }
+
+    .arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid rgba(70, 70, 70, 0.58);
+        z-index: 4;
+        display: grid;
+        align-self: center;
+
+    }
+
+    .search-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .header--container {
+        background: linear-gradient(to bottom, rgba(60, 60, 60, 0.9), rgba(0, 0, 0, 0)), url(../assets/Images/Pope.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+    .navbar--container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-end;
+        height: 50px;
+    }
+
+    .navbar--title {
+        margin-left: 100px;
+        color: white;
+        font-weight: 600;
+        font-size: 30px;
+
+    }
+
+    .navbar--items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        font-weight: 300;
+        font-size: 14px;
+        margin-right: 100px;
+        margin-left: 25px;
+    }
+
+    .dialog--container {
+        backdrop-filter: blur(15px);
+        background-color: rgba(70, 70, 70, 0.5);
+        margin-left: 100px;
+        max-width: 350px;
+        height: 380px;
+        display: grid;
+        grid-template-rows: 1fr 45px;
+    }
+
+    .dialog--text--container {
+        display: grid
+    }
+
+    .text-dialog {
+        align-self: flex-end;
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 16px;
+        margin-right: 50px;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+
+    .title-dialog {
+        color: white;
+        margin-left: 30px;
+        font-size: 40px;
+    }
+
+    .link-wiki {
+        font-size: 14px;
+    }
+
+    .paragraph--dialog {
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 16px;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 0;
+
+    }
+
+    .veredit-text {
+        color: white;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    .wiki-img {
+        margin-left: 30px;
+    }
+
+    .votes--pope--container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .orange--color {
+        width: 100%;
+        height: 100%;
+        background-color: #ffad1f;
+        display: grid;
+    }
+
+    .green--color {
+        width: 100%;
+        height: 100%;
+        background-color: #1cbbb4;
+        display: grid;
+    }
+
+    .more-votes {
+        width: 28px;
+        height: 28px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .less-votes {
+        width: 28px;
+        height: 28px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .closingIn--container {
+        display: grid;
+        align-items: flex-end;
+    }
+
+    .closingIn--section {
+        height: 51px;
+        display: grid;
+        grid-template-columns: 1fr 0px 2fr;
+    }
+
+    .closing-ing-container {
+        background-color: rgba(70, 70, 70, 0.3);
+        color: #fff;
+        display: grid;
+        align-items: center;
+        justify-items: end;
+    }
+
+    .closing-ing-text {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .bold-closing-ing {
+        font-size: 30px;
+        font-weight: 500;
+        color: #464646;
+    }
+
+    .days-container {
+        background-color: rgba(255, 255, 255, 0.6);
+        display: grid;
+        align-items: center;
+        justify-items: start;
+
+    }
+
+    .days-text {
+        margin-left: 15px;
+        font-size: 27px;
+        font-weight: 300;
+        color: #464646;
+    }
+
+    .arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid rgba(70, 70, 70, 0.58);
+        z-index: 4;
+        display: grid;
+        align-self: center;
+
+    }
+
+    .search-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+
+    .header--container {
+        background: linear-gradient(to bottom, rgba(60, 60, 60, 0.9), rgba(0, 0, 0, 0)), url(../assets/Images/Pope.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 500px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+    .navbar--container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: flex-end;
+        height: 50px;
+    }
+
+    .navbar--title {
+        margin-left: 100px;
+        color: white;
+        font-weight: 600;
+        font-size: 30px;
+
+    }
+
+    .navbar--items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        font-weight: 300;
+        font-size: 14px;
+        margin-right: 100px;
+        margin-left: 25px;
+    }
+
+    .dialog--container {
+        backdrop-filter: blur(15px);
+        background-color: rgba(70, 70, 70, 0.5);
+        margin-left: 100px;
+        max-width: 350px;
+        height: 380px;
+        display: grid;
+        grid-template-rows: 1fr 45px;
+    }
+
+    .dialog--text--container {
+        display: grid
+    }
+
+    .text-dialog {
+        align-self: flex-end;
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 16px;
+        margin-right: 50px;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+
+    .title-dialog {
+        color: white;
+        margin-left: 30px;
+        font-size: 40px;
+    }
+
+    .link-wiki {
+        font-size: 14px;
+    }
+
+    .paragraph--dialog {
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 16px;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 0;
+
+    }
+
+    .veredit-text {
+        color: white;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+
+    .wiki-img {
+        margin-left: 30px;
+    }
+
+    .votes--pope--container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .orange--color {
+        width: 100%;
+        height: 100%;
+        background-color: #ffad1f;
+        display: grid;
+    }
+
+    .green--color {
+        width: 100%;
+        height: 100%;
+        background-color: #1cbbb4;
+        display: grid;
+    }
+
+    .more-votes {
+        width: 28px;
+        height: 28px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .less-votes {
+        width: 28px;
+        height: 28px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .closingIn--container {
+        display: grid;
+        align-items: flex-end;
+    }
+
+    .closingIn--section {
+        height: 51px;
+        display: grid;
+        grid-template-columns: 1fr 0px 2fr;
+    }
+
+    .closing-ing-container {
+        background-color: rgba(70, 70, 70, 0.3);
+        color: #fff;
+        display: grid;
+        align-items: center;
+        justify-items: end;
+    }
+
+    .closing-ing-text {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .bold-closing-ing {
+        font-size: 30px;
+        font-weight: 500;
+        color: #464646;
+    }
+
+    .days-container {
+        background-color: rgba(255, 255, 255, 0.6);
+        display: grid;
+        align-items: center;
+        justify-items: start;
+
+    }
+
+    .days-text {
+        margin-left: 15px;
+        font-size: 27px;
+        font-weight: 300;
+        color: #464646;
+    }
+
+    .arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid rgba(70, 70, 70, 0.58);
+        z-index: 4;
+        display: grid;
+        align-self: center;
+
+    }
+
+    .search-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .header--container {
+        background: linear-gradient(to bottom, rgba(60, 60, 60, 0.9), rgba(0, 0, 0, 0)), url(../assets/Images/Pope.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 350px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+    .navbar--container {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        align-items: flex-end;
+        height: 50px;
+    }
+
+    .navbar--title {
+        margin-left: 30px;
+        color: white;
+        font-weight: 600;
+        font-size: 20px;
+
+    }
+
+    .navbar--items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        font-weight: 300;
+        font-size: 10px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .dialog--container {
+        backdrop-filter: blur(15px);
+        background-color: rgba(70, 70, 70, 0.5);
+        margin-left: 10px;
+        max-width: 250px;
+        height: 220px;
+        display: grid;
+        grid-template-rows: 1fr 30px;
+    }
+
+    .dialog--text--container {
+        display: grid
+    }
+
+    .text-dialog {
+        align-self: flex-end;
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 12px;
+        margin-right: 50px;
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
+
+    .title-dialog {
+        color: white;
+        margin-left: 30px;
+        font-size: 25px;
+    }
+
+    .link-wiki {
+        font-size: 12px;
+    }
+
+    .paragraph--dialog {
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 12px;
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-bottom: 0;
+
+    }
+
+    .veredit-text {
+        color: white;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+
+    .wiki-img {
+        margin-left: 30px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .votes--pope--container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .orange--color {
+        width: 100%;
+        height: 100%;
+        background-color: #ffad1f;
+        display: grid;
+    }
+
+    .green--color {
+        width: 100%;
+        height: 100%;
+        background-color: #1cbbb4;
+        display: grid;
+    }
+
+    .more-votes {
+        width: 15px;
+        height: 15px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .less-votes {
+        width: 15px;
+        height: 15px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .closingIn--container {
+        display: grid;
+        align-items: flex-end;
+    }
+
+    .closingIn--section {
+        height: 51px;
+        display: grid;
+        grid-template-columns: 1fr 0px 2fr;
+    }
+
+    .closing-ing-container {
+        background-color: rgba(70, 70, 70, 0.3);
+        color: #fff;
+        display: grid;
+        align-items: center;
+        justify-items: end;
+    }
+
+    .closing-ing-text {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .bold-closing-ing {
+        font-size: 30px;
+        font-weight: 500;
+        color: #464646;
+    }
+
+    .days-container {
+        background-color: rgba(255, 255, 255, 0.6);
+        display: grid;
+        align-items: center;
+        justify-items: start;
+
+    }
+
+    .days-text {
+        margin-left: 15px;
+        font-size: 27px;
+        font-weight: 300;
+        color: #464646;
+    }
+
+    .arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid rgba(70, 70, 70, 0.58);
+        z-index: 4;
+        display: grid;
+        align-self: center;
+
+    }
+
+    .search-icon {
+        width: 15px;
+        height: 15px;
+    }
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .header--container {
+        background: linear-gradient(to bottom, rgba(60, 60, 60, 0.9), rgba(0, 0, 0, 0)), url(../assets/Images/Pope.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 230px;
+        width: 103%;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+
+    .navbar--container {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+        align-items: flex-end;
+        height: 30px;
+    }
+
+    .navbar--title {
+        margin-left: 5px;
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+
+    }
+
+    .navbar--items {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: white;
+        font-weight: 300;
+        font-size: 8px;
+        margin-right: 10px;
+
+    }
+
+    .dialog--container {
+        backdrop-filter: blur(15px);
+        background-color: rgba(70, 70, 70, 0.5);
+        margin-left: 10px;
+        max-width: 170px;
+        height: 130px;
+        display: grid;
+        grid-template-rows: 1fr 20px;
+    }
+
+    .dialog--text--container {
+        display: grid
+    }
+
+    .text-dialog {
+        align-self: flex-end;
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 8px;
+        margin-right: 50px;
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+
+    .title-dialog {
+        color: white;
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .link-wiki {
+        font-size: 8px;
+    }
+
+    .paragraph--dialog {
+        margin-top: 0;
+        color: white;
+        font-weight: 100;
+        font-size: 8px;
+        margin-left: 10px;
+        margin-bottom: 0;
+
+    }
+
+    .veredit-text {
+        color: white;
+        font-size: 8px;
+        margin-left: 10px;
+    }
+
+    .wiki-img {
+        margin-left: 10px;
+        width: 6px;
+        height: 6px;
+    }
+
+    .votes--pope--container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .orange--color {
+        width: 100%;
+        height: 100%;
+        background-color: #ffad1f;
+        display: grid;
+    }
+
+    .green--color {
+        width: 100%;
+        height: 100%;
+        background-color: #1cbbb4;
+        display: grid;
+    }
+
+    .more-votes {
+        width: 10px;
+        height: 10px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .less-votes {
+        width: 10px;
+        height: 10px;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .closingIn--container {
+        display: grid;
+        align-items: flex-end;
+    }
+
+    .closingIn--section {
+        height: 31px;
+        display: grid;
+        grid-template-columns: 1fr 0px 2fr;
+    }
+
+    .closing-ing-container {
+        background-color: rgba(70, 70, 70, 0.3);
+        color: #fff;
+        display: grid;
+        align-items: center;
+        justify-items: end;
+    }
+
+    .closing-ing-text {
+        margin-right: 10px;
+        font-size: 8px;
+    }
+
+    .bold-closing-ing {
+        font-size: 14px;
+        font-weight: 500;
+        color: #464646;
+    }
+
+    .days-container {
+        background-color: rgba(255, 255, 255, 0.6);
+        display: grid;
+        align-items: center;
+        justify-items: start;
+
+    }
+
+    .days-text {
+        margin-left: 15px;
+        font-size: 12px;
+        font-weight: 300;
+        color: #464646;
+    }
+
+    .arrow-right {
+        width: 0;
+        height: 0;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid rgba(70, 70, 70, 0.58);
+        z-index: 4;
+        display: grid;
+        align-self: center;
+
+    }
+
+    .search-icon {
+        width: 8px;
+        height: 8px;
+    }
+
+
+}
