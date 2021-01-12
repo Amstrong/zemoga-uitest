@@ -1,0 +1,98 @@
+@media (min-width: 768px) {
+
+    .footer-container {
+        margin: 30px 100px 30px 100px;
+        border-top: 1px dotted #666666;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;
+
+    }
+
+    .text-footer {
+        margin-left: 15px;
+        font-size: 10px;
+        color: #666666;
+    }
+
+    .footer-elements {
+        margin-top: 15px;
+    }
+
+    .logo-footer {
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+    }
+
+
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .footer-container {
+        margin: 30px 100px 30px 100px;
+        border-top: 1px dotted #666666;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+
+    }
+
+    .text-footer {
+        margin-left: 15px;
+        color: #666666;
+    }
+
+    .footer-elements {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 5px;
+        width: 15px;
+        height: 15px;
+    }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .footer-container {
+        margin-top: 30px;
+        border-top: 1px dotted #666666;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 30px;
+
+    }
+
+    .text-footer {
+        font-size: 10px;
+        margin-left: 15px;
+        color: #666666;
+    }
+
+    .footer-elements {
+        margin-top: 15px;
+        font-size: 10px;
+    }
+
+    .logo-footer {
+        margin-left: 5px;
+        width: 10px;
+        height: 10px;
+    }
+
+}
