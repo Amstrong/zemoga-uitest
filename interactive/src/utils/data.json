@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "name":"Kanye West",
+        "category": "Entertainment",
+        "description":"  Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "period": "1 month ago",
+        "votes":{
+            "positiveVotes": 30,
+            "negativeVotes": 80
+    
+        }
+       
+    },
+    {
+        "id": 2,
+        "name":"Mark Zuckerberg",
+        "category": "Business",
+        "description":"  Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "period": "1 month ago",
+        "votes":{
+            "positiveVotes": 50,
+            "negativeVotes": 30
+    
+        }
+
+    },
+    {
+        "id": 3,
+        "name":"Cristina Fernández de Kirchner",
+        "category": "Politics",
+        "description":"  Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "period": "1 month ago",
+        "votes":{
+            "positiveVotes": 35,
+            "negativeVotes": 65
+    
+        }
+
+    },
+    {
+        "id": 4,
+        "name":"Malala Yousafzai",
+        "category": "Entertainment",
+        "description":"  Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "period": "1 month ago",
+        "votes":{
+            "positiveVotes": 40,
+            "negativeVotes": 60
+    
+        }
+
+    }
+]

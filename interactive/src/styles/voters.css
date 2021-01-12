@@ -1,0 +1,439 @@
+
+    
+@media (min-width: 491px) {
+    .voters--container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .voter--card-kanye {
+        width: 450px;
+        height: 500px;
+        margin: 20px;
+          background: linear-gradient(to top, #1e1e1e, rgba(0, 0, 0, 0)), url("../assets/Images/Kanye.jpg");
+    }
+    
+    .voter--card-malala {
+        width: 450px;
+        height: 500px;
+        margin: 20px;
+          background: linear-gradient(to top, #1e1e1e, rgba(0, 0, 0, 0)), url("../assets/Images/Malala.jpg");
+    }
+    .voter--card-mark {
+        width: 450px;
+        height: 500px;
+        margin: 20px;
+          background: linear-gradient(to top, #1e1e1e, rgba(0, 0, 0, 0)), url("../assets/Images/Mark.jpg");
+    }
+    .voter--card-cristina {
+        width: 450px;
+        height: 500px;
+        margin: 20px;
+          background: linear-gradient(to top, #1e1e1e, rgba(0, 0, 0, 0)), url("../assets/Images/Cristina.jpg");
+    }
+    
+    .photo-card {
+        width: 100%;
+      
+        
+    }
+    .card-details{
+        height: 100%;
+       display: grid;
+       grid-template-rows: 3fr 2fr;
+       
+    }
+    .card-layout{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+    
+    }
+    .title-voter{
+        font-size: 40px;
+        font-weight: 400;
+        color: white;
+    }
+    .title-voter-long{
+        font-size: 35px;
+        font-weight: 400;
+        color: white;
+        margin-right: 30px;
+    
+    }
+    .text-voter{
+        font-size: 12px;
+        color: white;
+    }
+    .bold-text-voter{
+        font-weight: 800;
+    }
+    .text-paragrah-voter{
+        color: white;
+        margin-right: 55px;
+        margin-top: 10px;
+        font-weight: 100;
+    }
+    .voting-system{
+        display: flex;
+        margin: 10px 0 10px 0;
+    }
+    .voting-system-mark{
+        margin-top: 25px;
+        margin-left: -15px;
+    }
+    .positive-vote-container{
+        margin-top: 10px;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        background-color: #1cbbb4;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    
+    }
+
+    .negative-vote-container{
+        margin-top: 10px;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        background-color: #ffad1f;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    
+    }
+    .positive-vote{
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+        background-color: #1cbbb4;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    
+    }
+    .positive-vote-pressed{
+        cursor: pointer;
+        width: 34px;
+        height: 34px;
+        margin-right: 10px;
+        background-color: #1cbbb4;
+        border: 1px solid white;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    
+    }
+    .negative-vote{
+        cursor: pointer;
+        width: 35px;
+        height: 35px;
+        background-color: #ffad1f;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    
+    }
+    .negative-vote-pressed{
+        cursor: pointer;
+        width: 34px;
+        height: 34px;
+        background-color: #ffad1f;
+        border: 1px solid white;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    
+    }
+    .hand-icon{
+        width: 25px;
+        height: 25px;
+        align-self: center;
+        justify-self: start;
+        margin-left: 15px;
+    }
+    
+    .hand-icon-votation{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .voteNow{
+        outline-width: 0;
+        cursor: pointer;
+        margin-left: 20px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        padding: 10px;
+    }
+
+    .voteNow:hover{
+
+        opacity: 0.7;
+        cursor: pointer;
+        margin-left: 20px;
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        padding: 10px;
+    }
+
+    .voteNow:active{
+    
+        opacity: 1;
+        cursor: pointer;
+        margin-left: 20px;
+        background: white;
+        border: 1px solid black;
+        color: black;
+        padding: 10px;
+    }
+   
+
+    .voting-status{
+        display: grid;
+        grid-template-columns: 69% 31%;
+        height: 50px;
+    }
+    .positive-voting{
+        background-color: rgba(28, 187, 180, 0.7);
+        display: flex
+    }
+    .negative-voting{
+        background-color: rgba(255, 173, 29, 0.7);
+        display: flex
+    }
+    .voting-percentage{
+        color: white;
+        align-self: center;
+        font-weight: 100;
+        margin-left: 15px;
+        font-size: 25px;
+    }
+
+    .thanks-text{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color: white;
+        font-weight: 300;
+    }
+    
+    
+  }
+  
+
+  @media (min-width: 320px) and (max-width: 490px) {
+    .voters--container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+    }
+    
+    .voter--card-kanye {
+        background: linear-gradient(to top, #1e1e1e, rgba(0, 0, 0, 0)), url("../assets/Images/Kanye.jpg");
+        width: 300px;
+        height: 300px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 20px;
+          
+    }
+    
+    .voter--card-malala {
+        background: linear-gradient(to top, #1e1e1e, rgba(0, 0, 0, 0)), url("../assets/Images/Malala.jpg");
+        width: 300px;
+        height: 300px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 20px;
+         
+          
+    }
+    .voter--card-mark {
+        background: linear-gradient(to top, #1e1e1e, rgba(0, 0, 0, 0)), url("../assets/Images/Mark.jpg");
+        width: 300px;
+        height: 300px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 20px;
+         
+    }
+    .voter--card-cristina {
+        
+        background: linear-gradient(to top, #1e1e1e, rgba(0, 0, 0, 0)), url("../assets/Images/Cristina.jpg");
+        width: 300px;
+        height: 300px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 20px;
+    }
+    
+    .photo-card {
+        width: 100%;
+      
+        
+    }
+    .card-details{
+        height: 100%;
+       display: grid;
+       grid-template-rows: 3fr 2fr;
+       
+    }
+    .card-layout{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+    
+    }
+    .title-voter{
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+    }
+    .title-voter-long{
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        margin-right: 30px;
+    
+    }
+    .text-voter{
+        font-size: 8px;
+        color: white;
+    }
+    .bold-text-voter{
+        font-weight: 800;
+    }
+    .text-paragrah-voter{
+        color: white;
+        margin-right: 55px;
+        margin-top: 10px;
+        font-weight: 100;
+        font-size: 12px;
+    }
+    .voting-system{
+        display: flex;
+        margin: 10px 0 10px 0;
+    }
+    .positive-vote-container{
+        margin-top: 10px;
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        background-color: #1cbbb4;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    
+    }
+    .positive-vote{
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        background-color: #1cbbb4;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    
+    }
+    .positive-vote-pressed{
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        margin-right: 10px;
+        background-color: #1cbbb4;
+        border: 1px solid white;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    
+    }
+    .negative-vote{
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        background-color: #ffad1f;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    
+    }
+    .negative-vote-pressed{
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        background-color: #ffad1f;
+        border: 1px solid white;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+    
+    }
+    .hand-icon{
+        width: 15px;
+        height: 15px;
+        align-self: center;
+        justify-self: start;
+        margin-left: 15px;
+    }
+    
+    .hand-icon-votation{
+        width: 15px;
+        height: 15px;
+    }
+    
+    .voteNow{
+        cursor: pointer;
+        margin-left: 10px;
+        margin-bottom: 3px;
+        background: transparent;
+        color: white;
+        border: 1px solid white;
+        font-size: 10px;
+        
+    }
+    .voting-status{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        height: 35px;
+    }
+    .positive-voting{
+        background-color: rgba(28, 187, 180, 0.7);
+        display: flex
+    }
+    .negative-voting{
+        background-color: rgba(255, 173, 29, 0.7);
+        display: flex
+    }
+    .voting-percentage{
+        color: white;
+        align-self: center;
+        font-weight: 100;
+        margin-left: 15px;
+        font-size: 15px;
+    }
+
+    .thanks-text{
+        margin-top: 2px;
+        margin-bottom: 2px;
+        color: white;
+        font-weight: 300;
+        font-size: 10px;
+    }
+    
+    
+    
+  }
+   
+   
